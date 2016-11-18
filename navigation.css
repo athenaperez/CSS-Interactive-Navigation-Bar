@@ -1,0 +1,117 @@
+/*******************************
+GENERAL STYLING
+*******************************/
+
+
+body {
+	
+	font-size: 1em;
+	text-align: center;
+	background-color: #f7ffe6;
+}
+
+#header {
+	background-color: #b9c69f;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h1 {
+	font-family: 'Proza Libre', sans-serif;
+	padding: 2%;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+	min-width: 700px;
+	background-color: white;
+	height: auto;
+}
+
+#article {
+	padding: 3% 0 3% 0;
+	font-family: Helvetica, sans-serif;
+}
+
+#paragraph {
+	text-align: justify;
+	padding: 0 10% 0 10%;
+}
+
+/*******************************
+NAVIGATION
+*******************************/
+
+nav {
+	background-color: #eeffcc;
+	text-align: center;
+	padding: 2% 0;
+	margin: 5% 0 0;
+}
+
+nav ul {
+	list-style: none;
+	text-decoration: none
+
+}
+
+nav li {
+	display: inline-block;
+	width: 8%;
+	font size: 2em;
+}
+
+
+nav a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+
+a:hover, a:active, a:focus {
+	color: green;
+	text-decoration: underline;
+}
+
+li:hover {
+	background-color: #88cc00;
+}
+
+
+li:active {
+	padding: 0 5px 0 5px;
+}
+
+
+/**********************************
+FOOTER
+**********************************/
+
+#footer {
+	background-color: #b9c69f;
+	text-align: center;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 1em;
+	height: 4%;
+	padding-top: 1%;
+	clear: both;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+#footer p {
+	font-size: .9em;
+}
+
+footer {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: .9em;
+	padding-bottom: 1em;
+	padding-top: .3em;
+}
+
+.social-icon{
+	width: 3.5%;
+	height: auto;
+}
